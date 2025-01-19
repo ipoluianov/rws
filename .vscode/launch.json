@@ -8,7 +8,8 @@
             "program": "${workspaceFolder}/target/debug/${workspaceFolderBasename}",
             "args": [],
             "cwd": "${workspaceFolder}",
-            "stopOnEntry": false
+            "stopOnEntry": false,
+            "preLaunchTask": "cargo build"
         }
     ]
 }

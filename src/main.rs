@@ -3,6 +3,7 @@ use std::env;
 
 #[tokio::main]
 async fn main() {
+    println!("STARTED");
     let current_dir = env::current_dir().expect("can't get current directory");
 
     let api_route = warp::path!("api" / String)
